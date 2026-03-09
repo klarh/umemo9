@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>umemo – Spaced-Repetition Flashcards</title>
+  <meta name="description" content="umemo is a free, privacy-first spaced-repetition flashcard app. All data stays in your browser; optionally sync across devices via Google Drive.">
+  <meta name="keywords" content="flashcards, spaced repetition, SRS, memorization, study, learning, offline, privacy">
+  <meta name="theme-color" content="#4a90d9">
+  <meta property="og:title" content="umemo – Spaced-Repetition Flashcards">
+  <meta property="og:description" content="Free, privacy-first spaced-repetition flashcards. Works offline. Optional Google Drive sync.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://klarh.github.io/umemo9/">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="apple-touch-icon" href="icon-192.png">
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://accounts.google.com/gsi/client" async defer></script>
+</head>
+<body>
+  <div id="app">
+    <main class="container">
+      <p style="text-align:center; color:#888; padding:3em;">Loading…</p>
+    </main>
+  </div>
+  <script>window.__UMEMO_GOOGLE_CLIENT_ID = "722240593413-rjbqnvp96el9na7j5ubsri2pi1ndopnu.apps.googleusercontent.com";</script>
+  <script src="app.js"></script>
+  <script>
+    if ("serviceWorker" in navigator) {
+      navigator.serviceWorker.register("sw.js");
+    }
+  </script>
+</body>
+</html>

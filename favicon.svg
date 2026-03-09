@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect x="8" y="12" width="40" height="32" rx="3" fill="#4a90d9" opacity="0.5" transform="rotate(-6 28 28)"/>
+  <rect x="12" y="8" width="40" height="32" rx="3" fill="#4a90d9" opacity="0.75" transform="rotate(2 32 24)"/>
+  <rect x="10" y="10" width="40" height="32" rx="3" fill="#fff" stroke="#4a90d9" stroke-width="2"/>
+  <text x="30" y="31" font-family="serif" font-size="20" font-weight="bold" fill="#4a90d9" text-anchor="middle" dominant-baseline="middle">u</text>
+</svg>

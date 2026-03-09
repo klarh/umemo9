@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy – umemo</title>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="app">
+    <main class="container">
+      <h1>Privacy Policy</h1>
+      <p><em>Last updated: February 20, 2026</em></p>
+
+      <h2>Summary</h2>
+      <p>umemo stores all data locally in your browser. We do not operate any
+      servers, collect any analytics, or transmit any data unless you
+      explicitly enable Google Drive sync.</p>
+
+      <h2>Data storage</h2>
+      <p>Your flashcard decks, review history, and settings are stored in your
+      browser's IndexedDB. This data never leaves your device unless you choose
+      to sync it or import cards from an external URL.</p>
+
+      <h2>Importing from external sources</h2>
+      <p>When you add an external source URL (e.g. a CSV or TSV file) to a
+      deck, your browser fetches that URL directly. This means the server
+      hosting the file will receive your IP address and standard HTTP request
+      headers. umemo does not proxy these requests through any intermediary.
+      The content of imported files is stored only in your browser's local
+      storage.</p>
+
+      <h2>Google Drive sync (optional)</h2>
+      <p>If you connect your Google account, umemo uses the Google Drive API to
+      read and write files <strong>only in its own application folder</strong>.
+      umemo does not access any other files in your Drive. Your Google OAuth
+      token is stored locally in your browser and is never sent to any
+      third-party server.</p>
+      <p>You can disconnect Google Drive at any time from the home screen,
+      which revokes the token and stops all sync activity.</p>
+
+      <h2>Cookies and tracking</h2>
+      <p>umemo does not use cookies, analytics, or any tracking technologies.
+      No data is shared with third parties.</p>
+
+      <h2>Third-party services</h2>
+      <p>The only external service used is the Google Identity Services library
+      (loaded from <code>accounts.google.com</code>), which is required for
+      the optional Google Drive sync feature. Google's own privacy policy
+      applies to that library:
+      <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">policies.google.com/privacy</a>.</p>
+
+      <h2>Data deletion</h2>
+      <p>You can delete individual decks from the app, or clear all data by
+      clearing your browser's site data for this origin. If you have synced
+      data to Google Drive, you can delete the umemo folder from your Drive
+      directly.</p>
+
+      <h2>Contact</h2>
+      <p>For questions about this policy, contact the developer.</p>
+
+      <p><a href="./">← Back to umemo</a></p>
+    </main>
+  </div>
+</body>
+</html>
